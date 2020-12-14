@@ -3,11 +3,11 @@
 
 ## Grupo 22: Aplicação
 
-- Ana Clara Amorim Andrade ---- 10691992
-- Lucas Yuji Matubara --------- 10734432
-- Matheus Godoy Bolsarini ----- 9896201
-- Pedro Pastorello Fernandes -- 10262502
-- Vinıcius Eduardo de Araujo -- 11275193
+- Ana Clara Amorim Andrade 10691992
+- Lucas Yuji Matubara 10734432
+- Matheus Godoy Bolsarini 9896201
+- Pedro Pastorello Fernandes 10262502
+- Vinıcius Eduardo de Araujo 11275193
 
 ## Sobre
 
