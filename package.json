@@ -14,7 +14,7 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AraujoVE/IoT_Aplication/issues"
-  },
+  }, 
   "homepage": "https://github.com/AraujoVE/IoT_Aplication#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
