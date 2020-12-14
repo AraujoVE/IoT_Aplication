@@ -433,14 +433,14 @@ function stopServer(msg) {
 const OAuthClient = new google.auth.OAuth2(
         oauthCedentials.clientId,
         oauthCedentials.clientSecret,
-        oauthCedentials.redirect
+        serverConfig.auth.redirectUrl
 );
 
 function googleAuthUrl(client) {
     return client.generateAuthUrl({
         access_type: 'offline',
         prompt: 'consent',
-        scope: oauthCedentials.scopes
+        scope: serverConfig.auth.scopes
     });
 }
 
@@ -616,6 +616,7 @@ async function runServer() {
             serverLog(`Servidor da aplicacao rodando em http://${serverConfig.hostname}:${serverConfig.http.port}`);
         })
     }
+
     if (serverConfig.https.enabled) {
         https.listen(serverConfig.https.port, () => {
             serverLog(`Servidor da aplicacao rodando em https://${serverConfig.hostname}:${serverConfig.https.port}`);

@@ -17,6 +17,11 @@
         "oauthCredentialsFile": "secret/oauth_credentials.json",
         "sessMaxAge": 86400000,
         "debugMethods": [],
-        "redirectOnUnauthorized": ["/"]
+        "redirectOnUnauthorized": ["/"],
+        "redirectUrl": "https://localhost:8443/",
+        "scopes": [
+            "https://www.googleapis.com/auth/plus.me",
+            "https://www.googleapis.com/auth/userinfo.email"
+        ]
     }
 }
